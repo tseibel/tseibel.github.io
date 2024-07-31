@@ -1,7 +1,7 @@
 import os
 
 AUTHOR = 'Trey Seibel'
-SITENAME = ''
+SITENAME = 'Personal Website'
 SITEURL = ""
 
 PATH = "content"
@@ -21,7 +21,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ("Github/tseibel", "https://https://github.com/tseibel/"),
+    ("Github/tseibel", "https://github.com/tseibel/"),
 )
 
 # Social widget
