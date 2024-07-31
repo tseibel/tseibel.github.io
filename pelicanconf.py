@@ -20,7 +20,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-
+MAIN_MENU = True
 # Blogroll
 #LINKS = (
 #    ("github", "https://github.com/tseibel/"),
