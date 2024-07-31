@@ -1,5 +1,5 @@
-Title: Home Page
+Title: Welcome to Pelican!
 Author: tseibel
-Tags: pelican, tutorial
 
-## Home Page
+## Welcome to Pelican
+Hello!
