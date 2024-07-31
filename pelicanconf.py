@@ -1,7 +1,9 @@
 import os
 
 AUTHOR = 'Trey Seibel'
-SITENAME = 'Personal Website'
+SITENAME = 'Trey Seibel'
+SITETITLE = 'My Personal Website'
+SITEDESCRIPTION = "What am I up to now?"
 SITEURL = ""
 
 PATH = "content"
@@ -20,14 +22,21 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (
-    ("My Github", "https://github.com/tseibel/"),
-)
+#LINKS = (
+#    ("github", "https://github.com/tseibel/"),
+#    ("linkedin", "https://www.linkedin.com/in/trey-seibel/")
+#)
 
 # Social widget
 SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
+    ("github", "https://github.com/tseibel/"),
+    ("linkedin", "https://www.linkedin.com/in/trey-seibel/")
+)
+
+MENUITEMS = (
+    ("Archives", "/archives.html"),
+    ("Categories", "/categories.html"),
+    ("Tags", "/tags.html"),
 )
 
 DEFAULT_PAGINATION = 10
