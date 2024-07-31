@@ -1,11 +1,15 @@
+import os
+
 AUTHOR = 'Trey Seibel'
-SITENAME = 'Personal Blog'
+SITENAME = ''
 SITEURL = ""
 
 PATH = "content"
 
 TIMEZONE = 'US/Central'
+path = os.path.join(os.getenv('USERPROFILE'), 'pelican-themes')
 
+THEME = path + '\Flex'
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
@@ -17,10 +21,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
+    ("Github/tseibel", "https://https://github.com/tseibel/"),
 )
 
 # Social widget
