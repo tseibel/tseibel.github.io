@@ -21,7 +21,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ("Github/tseibel", "https://github.com/tseibel/"),
+    ("My Github", "https://github.com/tseibel/"),
 )
 
 # Social widget
